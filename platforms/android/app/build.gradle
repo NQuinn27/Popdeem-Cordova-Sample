@@ -260,7 +260,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: '*.jar')
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
-    compile "com.popdeem.sdk:sdk:1.3.22"
+    compile "com.popdeem.sdk:sdk:1.3.25"
     // SUB-PROJECT DEPENDENCIES END
 }
 

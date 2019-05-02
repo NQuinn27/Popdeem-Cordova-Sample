@@ -61,32 +61,38 @@
     <key>LSApplicationQueriesSchemes</key>
     <array>
       <string>instagram</string>
-      <string>fb</string>
       <string>fbapi</string>
-      <string>fb-messenger-share-api</string>
+      <string>fbapi20130214</string>
+      <string>fbapi20130410</string>
+      <string>fbapi20130702</string>
+      <string>fbapi20131010</string>
+      <string>fbapi20131219</string>
+      <string>fbapi20140410</string>
+      <string>fbapi20140116</string>
+      <string>fbapi20150313</string>
+      <string>fbapi20150629</string>
+      <string>fbauth</string>
       <string>fbauth2</string>
-      <string>fbshareextension</string>
-      <string>twitter</string>
-      <string>twitterauth</string>
+      <string>fb-messenger-api20140430</string>
     </array>
     <key>PopdeemApiKey</key>
-    <string>f788c257-3b7c-401c-8219-71ec7b73cdb9</string>
+    <string>f1bf70fd-062f-44cf-b8e4-d6148c76e789</string>
     <key>PopdeemThemeFileName</key>
     <string>theme</string>
     <key>FacebookAppID</key>
-    <string>1528213564167350</string>
+    <string>1706317436274686</string>
     <key>FacebookDisplayName</key>
     <string>Popdeem</string>
     <key>FacebookNamespace</key>
     <string>popdeemrewards</string>
     <key>FacebookUrlSchemeSuffix</key>
-    <string>ribsburgers</string>
+    <string>yogurtpersa</string>
     <key>TwitterAppConsumerKey</key>
-    <string>ATNUdmskpUiRfY64Gnr4Zzmzk</string>
+    <string>TEeuybHxiDkp0ePJTHGnCP34e</string>
     <key>TwitterAppConsumerSecret</key>
-    <string>Aa5ZgP7MZhJefj23Xdc8vGgJmxx8cCa5kaVZiF56ovFd8m8gJ9</string>
+    <string>ROJi9Z3jYUFDKa2Z56CHTLNoY69omddPYGbWCvYw5FpgAzL5uN</string>
     <key>TwitterCallbackScheme</key>
-    <string>popdeemtwitterribsburgers</string>
+    <string>twitterkit-TEeuybHxiDkp0ePJTHGnCP34e</string>
     <key>InstagramClientId</key>
     <string>721403853f784eea86023a9e96ccde44</string>
     <key>InstagramClientSecret</key>
@@ -98,8 +104,8 @@
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
-          <string>fb1528213564167350ribsburgers</string>
-          <string>twitterkit-ATNUdmskpUiRfY64Gnr4Zzmzk</string>
+          <string>twitterkit-TEeuybHxiDkp0ePJTHGnCP34e</string>
+          <string>fb1706317436274686yogurtpersa</string>
         </array>
       </dict>
     </array>

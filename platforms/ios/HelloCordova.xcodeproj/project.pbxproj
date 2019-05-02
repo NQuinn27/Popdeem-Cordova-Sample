@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
@@ -14,36 +13,37 @@
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		36932DD076EF4DB99BF27DD4 /* Ribs_Burgers_LoginImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 546891703CA54969A96433CF /* Ribs_Burgers_LoginImage.png */; };
-		392637F92103A8B600AE9428 /* theme.json in Resources */ = {isa = PBXBuildFile; fileRef = 392637F82103A8B600AE9428 /* theme.json */; };
 		53847903FB704172BB6B2277 /* Ribs_Burgers_LoginImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A43C8F85301E4F8A8B41D220 /* Ribs_Burgers_LoginImage@2x.png */; };
 		5D4FFA4A769A44ECA5F9E79A /* Ribs_Burgers_LoginImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E812FDC01C44D8AAD0C571 /* Ribs_Burgers_LoginImage@3x.png */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 		8AEBD2ECD0C446D08776DEA9 /* Ribs_Burgers_Header.png in Resources */ = {isa = PBXBuildFile; fileRef = B6024E29AE0A4CF899DAEE53 /* Ribs_Burgers_Header.png */; };
-		93465A16D84749D583A59256 /* AppDelegate+popdeem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E8089E7AB84B19B175ADD8 /* AppDelegate+popdeem.m */; };
+		B25A3A6D08EE4D7493392C3A /* Popdeem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7702A81639FD4B6E8C9E90B4 /* Popdeem.m */; };
 		BB4861EBDF094A14B35BDFFD /* Ribs_Burgers_Header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71681CD1327A4CCE987F5361 /* Ribs_Burgers_Header@2x.png */; };
-		C1F4A43F549148CEB5DF5E6D /* Popdeem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F97B9D2899B4A4391035CE7 /* Popdeem.m */; };
+		FE5B9062690A4B459CA6E47F /* AppDelegate+popdeem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D36C2201924C5DBBDBABEA /* AppDelegate+popdeem.m */; };
 		FEAFE056947AF43B180B6944 /* libPods-HelloCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3A7B622807B57BD5BB70F1 /* libPods-HelloCordova.a */; };
 		FED4A5294A07443AB70F6CBE /* Ribs_Burgers_Header@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C1DF8276B494640898BCEED /* Ribs_Burgers_Header@3x.png */; };
+		259D2AB0B4354C3F99C574B3 /* theme.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B9FE15332D648549E4BB24B /* theme.json */; };
+		4E6B875F794A4D3DA814DC39 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 705795728F284B3CB9C25701 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = CordovaLib;
 		};
 		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = CordovaLib;
 		};
 		392637F42103A38600AE9428 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = C0C01EB21E3911D50056E6CB;
 			remoteInfo = Cordova;
@@ -52,14 +52,13 @@
 
 /* Begin PBXFileReference section */
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HelloCordova/Images.xcassets; sourceTree = SOURCE_ROOT; };
-		04E8089E7AB84B19B175ADD8 /* AppDelegate+popdeem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+popdeem.m"; path = "popdeem-cordova-plugin/PopdeemPlugin/AppDelegate+popdeem.m"; sourceTree = "<group>"; };
 		1C1DF8276B494640898BCEED /* Ribs_Burgers_Header@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Ribs_Burgers_Header@3x.png"; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* HelloCordova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCordova.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		297B6E2949A2459AAF05E0D4 /* theme.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = theme.json; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2F97B9D2899B4A4391035CE7 /* Popdeem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = Popdeem.m; path = "popdeem-cordova-plugin/PopdeemPlugin/Popdeem.m"; sourceTree = "<group>"; };
-		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
@@ -74,15 +73,22 @@
 		546891703CA54969A96433CF /* Ribs_Burgers_LoginImage.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = Ribs_Burgers_LoginImage.png; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = HelloCordova/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		71681CD1327A4CCE987F5361 /* Ribs_Burgers_Header@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Ribs_Burgers_Header@2x.png"; sourceTree = "<group>"; };
-		7EE35CD1AEDB4806ABAB2E82 /* Popdeem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = Popdeem.h; path = "popdeem-cordova-plugin/PopdeemPlugin/Popdeem.h"; sourceTree = "<group>"; };
+		7702A81639FD4B6E8C9E90B4 /* Popdeem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = Popdeem.m; path = "popdeem-cordova-plugin/PopdeemPlugin/Popdeem.m"; sourceTree = "<group>"; };
+		847C7FC9E637C8EED2A99D32 /* Pods-HelloCordova.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCordova.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCordova/Pods-HelloCordova.release.xcconfig"; sourceTree = "<group>"; };
+		84D36C2201924C5DBBDBABEA /* AppDelegate+popdeem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+popdeem.m"; path = "popdeem-cordova-plugin/PopdeemPlugin/AppDelegate+popdeem.m"; sourceTree = "<group>"; };
+		88513BED7D67040BFB11E0BB /* Pods-HelloCordova.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCordova.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCordova/Pods-HelloCordova.debug.xcconfig"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* HelloCordova-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "HelloCordova-Info.plist"; path = "HelloCordova/HelloCordova-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
 		A43C8F85301E4F8A8B41D220 /* Ribs_Burgers_LoginImage@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Ribs_Burgers_LoginImage@2x.png"; sourceTree = "<group>"; };
+		B5331C04435D4F2EB065B61A /* AppDelegate+popdeem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+popdeem.h"; path = "popdeem-cordova-plugin/PopdeemPlugin/AppDelegate+popdeem.h"; sourceTree = "<group>"; };
 		B6024E29AE0A4CF899DAEE53 /* Ribs_Burgers_Header.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = Ribs_Burgers_Header.png; sourceTree = "<group>"; };
+		B6B16992311C4804861DCE01 /* Popdeem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = Popdeem.h; path = "popdeem-cordova-plugin/PopdeemPlugin/Popdeem.h"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		F73887AB89214D1FA264F23E /* AppDelegate+popdeem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+popdeem.h"; path = "popdeem-cordova-plugin/PopdeemPlugin/AppDelegate+popdeem.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = HelloCordova/config.xml; sourceTree = "<group>"; };
+		FCBCAE8DF9D84CA68D97F633 /* Localizable.strings */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		5B9FE15332D648549E4BB24B /* theme.json */ = {isa = PBXFileReference; name = "theme.json"; path = "theme.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		705795728F284B3CB9C25701 /* Localizable.strings */ = {isa = PBXFileReference; name = "Localizable.strings"; path = "Localizable.strings"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.strings; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,8 @@
 		14D292165DBD9B54E1CF64F8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				88513BED7D67040BFB11E0BB /* Pods-HelloCordova.debug.xcconfig */,
+				847C7FC9E637C8EED2A99D32 /* Pods-HelloCordova.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -126,14 +134,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA = {
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
 				392637F82103A8B600AE9428 /* theme.json */,
 				EB87FDF41871DAF40020F90C /* config.xml */,
 				EB87FDF31871DA8E0020F90C /* www */,
 				EB87FDF11871DA420020F90C /* Staging */,
-				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
+				301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				307C750510C5A3420062BCA9 /* Plugins */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -169,6 +177,10 @@
 				546891703CA54969A96433CF /* Ribs_Burgers_LoginImage.png */,
 				A43C8F85301E4F8A8B41D220 /* Ribs_Burgers_LoginImage@2x.png */,
 				35E812FDC01C44D8AAD0C571 /* Ribs_Burgers_LoginImage@3x.png */,
+				297B6E2949A2459AAF05E0D4 /* theme.json */,
+				FCBCAE8DF9D84CA68D97F633 /* Localizable.strings */,
+				5B9FE15332D648549E4BB24B /* theme.json */,
+				705795728F284B3CB9C25701 /* Localizable.strings */,
 			);
 			name = Resources;
 			path = HelloCordova/Resources;
@@ -196,10 +208,10 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				2F97B9D2899B4A4391035CE7 /* Popdeem.m */,
-				04E8089E7AB84B19B175ADD8 /* AppDelegate+popdeem.m */,
-				7EE35CD1AEDB4806ABAB2E82 /* Popdeem.h */,
-				F73887AB89214D1FA264F23E /* AppDelegate+popdeem.h */,
+				7702A81639FD4B6E8C9E90B4 /* Popdeem.m */,
+				84D36C2201924C5DBBDBABEA /* AppDelegate+popdeem.m */,
+				B6B16992311C4804861DCE01 /* Popdeem.h */,
+				B5331C04435D4F2EB065B61A /* AppDelegate+popdeem.h */,
 			);
 			name = Plugins;
 			path = HelloCordova/Plugins;
@@ -256,7 +268,7 @@
 				LastUpgradeCheck = 510;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = 8PLB96W655;
+						DevelopmentTeam = S648X26U8J;
 					};
 				};
 			};
@@ -267,13 +279,13 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = 29B97314FDCFA39411CA2CEA;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 				{
 					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
-					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -310,11 +322,12 @@
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
 				8AEBD2ECD0C446D08776DEA9 /* Ribs_Burgers_Header.png in Resources */,
 				BB4861EBDF094A14B35BDFFD /* Ribs_Burgers_Header@2x.png in Resources */,
-				392637F92103A8B600AE9428 /* theme.json in Resources */,
 				FED4A5294A07443AB70F6CBE /* Ribs_Burgers_Header@3x.png in Resources */,
 				36932DD076EF4DB99BF27DD4 /* Ribs_Burgers_LoginImage.png in Resources */,
 				53847903FB704172BB6B2277 /* Ribs_Burgers_LoginImage@2x.png in Resources */,
 				5D4FFA4A769A44ECA5F9E79A /* Ribs_Burgers_LoginImage@3x.png in Resources */,
+				259D2AB0B4354C3F99C574B3 /* theme.json in Resources */,
+				4E6B875F794A4D3DA814DC39 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +342,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HelloCordova/Pods-HelloCordova-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-HelloCordova/Pods-HelloCordova-frameworks.sh",
 				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
 				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
 			);
@@ -342,7 +355,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloCordova/Pods-HelloCordova-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloCordova/Pods-HelloCordova-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		25C142787EE8957E94F01A17 /* [CP] Check Pods Manifest.lock */ = {
@@ -390,7 +403,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HelloCordova/Pods-HelloCordova-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-HelloCordova/Pods-HelloCordova-resources.sh",
 				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
 				"${PODS_ROOT}/PopdeemSDK/PopdeemSDK/UIKit/pduikit_brand_placeholder.png",
 				"${PODS_ROOT}/PopdeemSDK/PopdeemSDK/UIKit/pduikit_cancelbutton.png",
@@ -817,7 +830,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloCordova/Pods-HelloCordova-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloCordova/Pods-HelloCordova-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -830,8 +843,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				C1F4A43F549148CEB5DF5E6D /* Popdeem.m in Sources */,
-				93465A16D84749D583A59256 /* AppDelegate+popdeem.m in Sources */,
+				B25A3A6D08EE4D7493392C3A /* Popdeem.m in Sources */,
+				FE5B9062690A4B459CA6E47F /* AppDelegate+popdeem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -856,7 +869,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 8PLB96W655;
+				DEVELOPMENT_TEAM = S648X26U8J;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -881,7 +894,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = 8PLB96W655;
+				DEVELOPMENT_TEAM = S648X26U8J;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloCordova/HelloCordova-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;

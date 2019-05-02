@@ -13,7 +13,7 @@ module.exports.metadata =
 // TOP OF METADATA
 {
   "cordova-plugin-whitelist": "1.3.2",
-  "popdeem-cordova-plugin": "0.1.16"
+  "popdeem-cordova-plugin": "0.1.30"
 };
 // BOTTOM OF METADATA
 });
