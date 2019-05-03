@@ -81,13 +81,13 @@
         </config-file>
         <hook src="hooks/after_prepare/update_platform_config.js" type="after_prepare" />
         <config-file parent="PopdeemApiKey" target="*-Info.plist">
-            <string>f1bf70fd-062f-44cf-b8e4-d6148c76e789</string>
+            <string>f788c257-3b7c-401c-8219-71ec7b73cdb9</string>
         </config-file>
         <config-file parent="PopdeemThemeFileName" target="*-Info.plist">
             <string>theme</string>
         </config-file>
         <config-file parent="FacebookAppID" target="*-Info.plist">
-            <string>1706317436274686</string>
+            <string>1528213564167350</string>
         </config-file>
         <config-file parent="FacebookDisplayName" target="*-Info.plist">
             <string>Popdeem</string>
@@ -96,16 +96,16 @@
             <string>popdeemrewards</string>
         </config-file>
         <config-file parent="FacebookUrlSchemeSuffix" target="*-Info.plist">
-            <string>yogurtpersa</string>
+            <string>ribsburgers</string>
         </config-file>
         <config-file parent="TwitterAppConsumerKey" target="*-Info.plist">
-            <string>TEeuybHxiDkp0ePJTHGnCP34e</string>
+            <string>ATNUdmskpUiRfY64Gnr4Zzmzk</string>
         </config-file>
         <config-file parent="TwitterAppConsumerSecret" target="*-Info.plist">
-            <string>ROJi9Z3jYUFDKa2Z56CHTLNoY69omddPYGbWCvYw5FpgAzL5uN</string>
+            <string>Aa5ZgP7MZhJefj23Xdc8vGgJmxx8cCa5kaVZiF56ovFd8m8gJ9</string>
         </config-file>
         <config-file parent="TwitterCallbackScheme" target="*-Info.plist">
-            <string>twitterkit-TEeuybHxiDkp0ePJTHGnCP34e</string>
+            <string>popdeemtwitterribsburgers</string>
         </config-file>
         <config-file parent="InstagramClientId" target="*-Info.plist">
             <string>721403853f784eea86023a9e96ccde44</string>
@@ -121,8 +121,8 @@
                 <dict>
                     <key>CFBundleURLSchemes</key>
                     <array>
-                        <string>twitterkit-TEeuybHxiDkp0ePJTHGnCP34e</string>
-                        <string>fb1706317436274686yogurtpersa</string>
+                        <string>fb1528213564167350ribsburgers</string>
+                        <string>popdeemtwitterribsburgers</string>
                     </array>
                 </dict>
             </array>

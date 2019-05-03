@@ -10,43 +10,43 @@
           "UILaunchStoryboardName": [
             {
               "xml": "<string>CDVLaunchScreen</string>",
-              "count": 7
+              "count": 5
             }
           ],
           "NSCameraUsageDescription": [
             {
               "xml": "<string>Credit card scanning or photo sharing</string>",
-              "count": 7
+              "count": 5
             },
             {
               "xml": "<string>We need access to your camera when you decide to share a photo.</string>",
-              "count": 7
+              "count": 5
             }
           ],
           "NSPhotoLibraryUsageDescription": [
             {
               "xml": "<string>Credit card scanning or photo sharing</string>",
-              "count": 7
+              "count": 5
             },
             {
               "xml": "<string>We access your photo gallery when you decide to share a photo.</string>",
-              "count": 7
+              "count": 5
             }
           ],
           "NSLocationWhenInUseUsageDescription": [
             {
               "xml": "<string>We use your location to deliver local rewards.</string>",
-              "count": 14
+              "count": 10
             }
           ],
           "LSApplicationQueriesSchemes": [
             {
               "xml": "<array><string>twitter</string><string>fb</string><string>whatsapp</string><string>payphone</string></array>",
-              "count": 7
+              "count": 5
             },
             {
               "xml": "<array><string>instagram</string><string>fbapi</string><string>fbapi20130214</string><string>fbapi20130410</string><string>fbapi20130702</string><string>fbapi20131010</string><string>fbapi20131219</string><string>fbapi20140410</string><string>fbapi20140116</string><string>fbapi20150313</string><string>fbapi20150629</string><string>fbauth</string><string>fbauth2</string><string>fb-messenger-api20140430</string></array>",
-              "count": 4
+              "count": 2
             },
             {
               "xml": "<array><string>instagram</string><string>fb</string><string>fbapi</string><string>fb-messenger-share-api</string><string>fbauth2</string><string>fbshareextension</string><string>twitter</string><string>twitterauth</string></array>",
@@ -57,57 +57,41 @@
             {
               "xml": "<string>f788c257-3b7c-401c-8219-71ec7b73cdb9</string>",
               "count": 5
-            },
-            {
-              "xml": "<string>f1bf70fd-062f-44cf-b8e4-d6148c76e789</string>",
-              "count": 2
             }
           ],
           "PopdeemThemeFileName": [
             {
               "xml": "<string>theme</string>",
-              "count": 7
+              "count": 5
             }
           ],
           "FacebookAppID": [
             {
               "xml": "<string>1528213564167350</string>",
               "count": 5
-            },
-            {
-              "xml": "<string>1706317436274686</string>",
-              "count": 2
             }
           ],
           "FacebookDisplayName": [
             {
               "xml": "<string>Popdeem</string>",
-              "count": 7
+              "count": 5
             }
           ],
           "FacebookNamespace": [
             {
               "xml": "<string>popdeemrewards</string>",
-              "count": 7
+              "count": 5
             }
           ],
           "FacebookUrlSchemeSuffix": [
             {
               "xml": "<string>ribsburgers</string>",
               "count": 5
-            },
-            {
-              "xml": "<string>yogurtpersa</string>",
-              "count": 2
             }
           ],
           "TwitterAppConsumerKey": [
             {
               "xml": "<string>ATNUdmskpUiRfY64Gnr4Zzmzk</string>",
-              "count": 2
-            },
-            {
-              "xml": "<string>TEeuybHxiDkp0ePJTHGnCP34e</string>",
               "count": 2
             }
           ],
@@ -115,38 +99,30 @@
             {
               "xml": "<string>Aa5ZgP7MZhJefj23Xdc8vGgJmxx8cCa5kaVZiF56ovFd8m8gJ9</string>",
               "count": 2
-            },
-            {
-              "xml": "<string>ROJi9Z3jYUFDKa2Z56CHTLNoY69omddPYGbWCvYw5FpgAzL5uN</string>",
-              "count": 2
             }
           ],
           "TwitterCallbackScheme": [
             {
               "xml": "<string>popdeemtwitterribsburgers</string>",
               "count": 2
-            },
-            {
-              "xml": "<string>twitterkit-TEeuybHxiDkp0ePJTHGnCP34e</string>",
-              "count": 2
             }
           ],
           "InstagramClientId": [
             {
               "xml": "<string>721403853f784eea86023a9e96ccde44</string>",
-              "count": 7
+              "count": 5
             }
           ],
           "InstagramClientSecret": [
             {
               "xml": "<string>0b14e780896e42be88cefcddb3ac64dc</string>",
-              "count": 7
+              "count": 5
             }
           ],
           "InstagramCallback": [
             {
               "xml": "<string>https://www.popdeem.com/igredirect</string>",
-              "count": 7
+              "count": 5
             }
           ],
           "CFBundleURLTypes": [
@@ -157,10 +133,6 @@
             {
               "xml": "<array><dict><key>CFBundleURLSchemes</key><array><string>fb1528213564167350ribsburgers</string><string>twitterkit-ATNUdmskpUiRfY64Gnr4Zzmzk</string></array></dict></array>",
               "count": 3
-            },
-            {
-              "xml": "<array><dict><key>CFBundleURLSchemes</key><array><string>twitterkit-TEeuybHxiDkp0ePJTHGnCP34e</string><string>fb1706317436274686yogurtpersa</string></array></dict></array>",
-              "count": 2
             }
           ]
         }
@@ -198,6 +170,6 @@
   ],
   "plugin_metadata": {
     "cordova-plugin-whitelist": "1.3.2",
-    "popdeem-cordova-plugin": "0.1.30"
+    "popdeem-cordova-plugin": "0.1.16"
   }
 }

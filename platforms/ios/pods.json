@@ -2,7 +2,7 @@
     "PopdeemSDK": {
         "name": "PopdeemSDK",
         "type": "podspec",
-        "spec": "1.1.54",
+        "spec": "1.1.42",
         "count": 1
     },
     "FBSDKCoreKit": {

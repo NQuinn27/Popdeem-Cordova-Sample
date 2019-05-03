@@ -27,6 +27,10 @@
     swizzled = class_getInstanceMethod(self, @selector(swizzled_application: openURL: options:));
     method_exchangeImplementations(original, swizzled);
     
+    original = class_getInstanceMethod(self, @selector(application: openURL: sourceApplication: annotation:));
+    swizzled = class_getInstanceMethod(self, @selector(swizzled_application: openURL: sourceApplication: annotation:));
+    method_exchangeImplementations(original, swizzled);
+    
     original = class_getInstanceMethod(self, @selector(applicationDidBecomeActive:));
     swizzled = class_getInstanceMethod(self, @selector(swizzled_applicationDidBecomeActive:));
     method_exchangeImplementations(original, swizzled);
@@ -61,7 +65,8 @@
 
 - (BOOL) swizzled_application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *, id> *)options
 {
-    [self swizzled_application:app openURL:url options:options];
+    BOOL result = [self swizzled_application:app openURL:url options:options];
+    if (result) return result;
     
     BOOL handled = [[FBSDKApplicationDelegate sharedInstance] application:app openURL:url options:options
                     ];
@@ -72,6 +77,24 @@
     
     if ([PopdeemSDK application:app canOpenUrl:url options:options]) {
         return [PopdeemSDK application:app openURL:url options:options];
+    }
+    
+    return NO;
+}
+
+- (BOOL)swizzled_application:(UIApplication*)app openURL:(NSURL*)url sourceApplication:(NSString*)sourceApplication annotation:(id)annotation
+{
+    [self swizzled_application:app openURL:url sourceApplication:sourceApplication annotation:annotation ];
+    
+    BOOL handled = [[FBSDKApplicationDelegate sharedInstance] application:app openURL:url sourceApplication:sourceApplication annotation:annotation
+                    ];
+    // Add any custom logic here.
+    if (handled) {
+        return handled;
+    }
+    
+    if ([PopdeemSDK application:app canOpenUrl:url sourceApplication:sourceApplication annotation:annotation]) {
+        return [PopdeemSDK application:app openURL:url sourceApplication:sourceApplication annotation:annotation];
     }
     
     return NO;

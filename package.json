@@ -17,7 +17,7 @@
     "elementtree": "^0.1.7",
     "lodash": "^4.17.4",
     "plist": "^2.1.0",
-    "popdeem-cordova-plugin": "^0.1.30"
+    "popdeem-cordova-plugin": "^0.1.16"
   },
   "cordova": {
     "plugins": {
